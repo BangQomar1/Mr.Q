@@ -1,0 +1,11 @@
+# Clone the repository
+git clone https://github.com/fulvius31/wifi-wps-wpa-tester-opensource.git
+
+# Navigate to project directory
+cd wifi-wps-wpa-tester-opensource
+
+# Build debug APK
+./gradlew assembleDebug
+
+# Run tests
+./gradlew test
